@@ -5,7 +5,9 @@ Aplikacja służąca do nadzorowania newsów piłkarskich
 
 ### Repozytoria (Na tę chwile są one prywatne(do omówienia z promotorem))
  __Aplikacja na androida__ (https://gitlab.com/Pilkowski/SportsNewsManager)
+ 
  __Backend__ (https://gitlab.com/Pilkowski/sportsnewsmanagerbackend) - Możliwa zmiana linku - wątpliwe, że będe robił w Django
+ 
  __Aplikacja webowa__ () - Nie wiem czy wymagana, narazie brak linku
  
 ### Tematyka pracy
@@ -16,6 +18,7 @@ Główny ekran (Newsy) aplikacji będzie się zawierał wszystkie wybrane przez 
 * Date dodania
 * Głównego zdjęcia
 * Tytułu newsa
+
 Oprócz tego ekran `Newsy` będzie wyświetlał polecane newsy, które mogą się akurat spodobać użytkownikowi. 
 
 Druga zakładka (Zarządzanie) będzie zbiorem ulubionych drużyn/lig jakie użytkownik wybrał. Z poziomu tego ekranu użytkownik

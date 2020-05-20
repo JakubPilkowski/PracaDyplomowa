@@ -45,12 +45,14 @@ PU zarządzaj wiadomościami:
 ![PU Zarzadzaj wiadomosciami](/Diagramy/PU_Zarzadzaj_wiadomościami.png)
 
 PU zarządzaj ulubionymi:
+
 ![DPU](/Diagramy/PU_Zarzadzaj_ulubionymi.png)
 
 PU zarządzaj popularnymi stronami:
 ![DPU](/Diagramy/PU_Zarzadzaj_popularnymi_stronami.png)
 
 PU zarządzaj ustawieniami:
+
 ![DPU](/Diagramy/PU_Zarzadzaj_ustawieniami.png)
 
 ### Struktura bazy danych

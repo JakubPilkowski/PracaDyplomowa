@@ -32,6 +32,12 @@ Oprócz tego aplikacja będzie zawierała system logowania za pomocą facebooka,
 wybrać domyślną zakładkę, zmienić język aplikacji itp, włączać/wyłączać powiadomienia.
 
 
+### Diagramy przypadków użycia
+
+DPU główny:
+(/diagramy/DPU.png)
+
+
 ### Struktura bazy danych
 
 

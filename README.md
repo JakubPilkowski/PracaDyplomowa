@@ -42,7 +42,7 @@ PU zaloguj:
 ![PU Zaloguj](/Diagramy/PU_Zaloguj.png)
 
 PU zarządzaj wiadomościami:
-![DPU](/Diagramy/PU Zarządzaj wiadomościami.png)
+![PU Zarządzaj wiadomościami](/Diagramy/PU_Zarządzaj wiadomościami.png)
 
 PU zarządzaj ulubionymi:
 ![DPU](/Diagramy/PU Zarządzaj ulubionymi.png)

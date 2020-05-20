@@ -39,7 +39,7 @@ DPU główny:
 PU dodaj drużynę jest odzielnie, ponieważ dodanie drużyny rozpoczyna się w każdej podstawowej zakładce (Newsy, Ulubione, Popularne)
 
 PU zaloguj:
-![DPU](/Diagramy/PU Zaloguj.png)
+![PU Zaloguj](/Diagramy/PU_Zaloguj.png)
 
 PU zarządzaj wiadomościami:
 ![DPU](/Diagramy/PU Zarządzaj wiadomościami.png)

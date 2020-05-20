@@ -58,7 +58,7 @@ PU zarządzaj ustawieniami:
 ### Struktura bazy danych
 
 
-![DPU](/Baza danych/BazaDanych.png)
+![DPU](/Baza_danych/BazaDanych.png)
 
 
 ### Scenariusze

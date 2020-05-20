@@ -35,7 +35,7 @@ wybrać domyślną zakładkę, zmienić język aplikacji itp, włączać/wyłąc
 ### Diagramy przypadków użycia
 
 DPU główny:
-(/Diagramy/DPU.png)
+![GitHub Logo](/Diagramy/DPU.png)
 
 
 ### Struktura bazy danych

@@ -35,7 +35,7 @@ wybrać domyślną zakładkę, zmienić język aplikacji itp, włączać/wyłąc
 ### Diagramy przypadków użycia
 
 DPU główny:
-(/diagramy/DPU.png)
+(/Diagramy/DPU.png)
 
 
 ### Struktura bazy danych

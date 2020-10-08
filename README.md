@@ -35,7 +35,6 @@ Oprócz tego aplikacja będzie zawierała system logowania wliczając w to logow
 
 DPU główny:
 ![DPU](/Diagramy/DPU.png)
-PU dodaj drużynę jest odzielnie, ponieważ dodanie drużyny rozpoczyna się w każdej podstawowej zakładce (Newsy, Ulubione, Popularne)
 
 PU autoryzuj:
 ![PU Autoryzuj](/Diagramy/PU_Autoryzuj.png)

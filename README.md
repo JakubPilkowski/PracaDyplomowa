@@ -2,35 +2,34 @@ PracaDyplomowa SportNewsManager
 ======
 Aplikacja służąca do nadzorowania newsów piłkarskich
 ------
-
-### Repozytoria (Na tę chwile są one prywatne(do omówienia z promotorem))
- __Aplikacja na androida__ (https://gitlab.com/Pilkowski/SportsNewsManager)
+Stan na 08.10.2020
+------
+### Repozytoria
+ __Aplikacja__ (https://github.com/JakubPilkowski/SportNewsManagerMobileApp)
  
- __Backend__ (https://gitlab.com/Pilkowski/sportsnewsmanagerbackend) - Możliwa zmiana linku - wątpliwe, że będe robił w Django
+ __Backend__ (https://github.com/JakubPilkowski/FootballNewsManagerBackend)
  
- __Aplikacja webowa__ () - Nie wiem czy wymagana, narazie brak linku
+ __Aplikacja Panel Admina__ (https://github.com/JakubPilkowski/FootballNewsManagerAdminMobileApp) - Aplikacja dla adminów do zarządzania użytkownikami oraz newsami
  
 ### Tematyka pracy
-Aplikacja ma za zadanie na podstawie kryteriów użytkownika wyświetlać newsy oraz dodatkowe treści (np wyniki meczów, transfery) z ulubionych lig bądź konkretnych zespołów. Aplikacja składa się z trzech głównych ekranów: `Newsy`, `Ulubione` oraz `Popularne`.
-Główny ekran (Newsy) aplikacji będzie się zawierał wszystkie wybrane przez użytkownika newsy z przed kilku dni (najprawdopodobniej do 2). Każdy news składa się z:
+Aplikacja ma za zadanie na podstawie kryteriów użytkownika wyświetlać newsy z konkretnych zespołów. Aplikacja dzieli się na 2 podaplikacje(o ile takie słowo istnieje), główna oraz panel administratora.
+Składa się z czterech głównych zakładek: `Drużyny`, `Aktualności`, `Popularne` oraz `Profil`.
+Główny ekran (Drużyny) aplikacji będzie wyświetlał wszystkie wybrane przez użytkownika newsy z przed kilku dni oraz zapewniał prostą wyszukiwarkę po nazwie drużyny. 
+Każdy news składa się z:
 * Logo strony internetowej z której pochodzi
 * Nazwę strony internetowej
 * Date dodania
 * Głównego zdjęcia
 * Tytułu newsa
+* Tagi przypisanie do danej wiadomości
 
-Oprócz tego ekran `Newsy` będzie wyświetlał polecane newsy, które mogą się akurat spodobać użytkownikowi. 
+Druga zakładka (Aktualności) będzie wyświetlał najnowsze wiadomośći wraz z wiadomościami polecanymi. Z poziomu tej zakładki można wyszukiwać wiadomości po frazie oraz dodać daną drużynę do ulubionych.
 
-Druga zakładka (Ulubione) będzie zbiorem ulubionych drużyn/lig jakie użytkownik wybrał. Z poziomu tego ekranu użytkownik
-może usuwać wybrane drużyny/ligi.
+Kolejna zakładka (Popularne) będzie pokazywała strony internetowe, które są ostatnio popularne. Aplikacja będzie liczyła ilość kliknięć na daną stronę piłkarską i na jej podstawie będzie sortowała strony wyświetlające się. 
 
-Ostatnia zakładka (Popularne) będzie pokazywała strony internetowe, które są ostatnio popularne. Aplikacja będzie liczyła ilość kliknięć na daną stronę piłkarską i na jej podstawie będzie sortowała strony wyświetlające się. 
+Ostatnia zakładka (Profile) będzie ukazywał dane użytkownika. Z poziomu tej zakładki użytkownik może edytować ustawienia, ulubione strony, zmienić dane logowania itp.
 
-Każda z zakładek ma prawym dolnym rogu przycisk, która nawiguje do ekranu dodania drużyny. Użytkownik będzie mógł na podstawie podanych danych wybrać swoje ulubione ligi/drużyny.
-
-Oprócz tego aplikacja będzie zawierała system logowania za pomocą facebooka, googla oraz ekran ustawienia, z poziomu którego będzie można np zmienić motywy aplikacji, zarządzać wyświetlaną zawartością (np wyświetlanie samych transferów lub samych wyników meczy),
-wybrać domyślną zakładkę, zmienić język aplikacji itp, włączać/wyłączać powiadomienia.
-
+Oprócz tego aplikacja będzie zawierała system logowania wliczając w to logowanie za pomocą googla oraz facebooka.
 
 ### Diagramy przypadków użycia
 
@@ -38,22 +37,24 @@ DPU główny:
 ![DPU](/Diagramy/DPU.png)
 PU dodaj drużynę jest odzielnie, ponieważ dodanie drużyny rozpoczyna się w każdej podstawowej zakładce (Newsy, Ulubione, Popularne)
 
-PU zaloguj:
-![PU Zaloguj](/Diagramy/PU_Zaloguj.png)
+PU autoryzuj:
+![PU Autoryzuj](/Diagramy/PU_Autoryzuj.png)
 
-PU zarządzaj wiadomościami:
-![PU Zarzadzaj wiadomosciami](/Diagramy/PU_Zarzadzaj_wiadomościami.png)
-
-PU zarządzaj ulubionymi:
-
-![DPU](/Diagramy/PU_Zarzadzaj_ulubionymi.png)
+PU zarządzaj wiadomościami piłkarskimi:
+![PU Zarzadzaj wiadomosciami](/Diagramy/PU_Zarzadzaj_wiadomosciami_pilkarskimi.png)
 
 PU zarządzaj popularnymi stronami:
-![DPU](/Diagramy/PU_Zarzadzaj_popularnymi_stronami.png)
 
-PU zarządzaj ustawieniami:
+![PU Zarzadzaj popularnymi stronami](/Diagramy/PU_Zarzadzaj_popularnymi_stronami.png)
 
-![DPU](/Diagramy/PU_Zarzadzaj_ustawieniami.png)
+PU zarządzaj profilem:
+
+![PU Zarzadzaj profilem](/Diagramy/PU_Zarzadzaj_profilem.png)
+
+
+PU zarządzaj użytkownikami:
+
+![PU Zarzadzaj użytkownikami](/Diagramy/PU_Zarzadzaj_uzytkownikami.png)
 
 ### Struktura bazy danych
 

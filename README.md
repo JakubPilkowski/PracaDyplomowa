@@ -2,7 +2,7 @@ PracaDyplomowa SportNewsManager
 ======
 Aplikacja służąca do nadzorowania newsów piłkarskich
 ------
-Stan na 08.10.2020
+Stan na 08.10.2020 - Brak zaktualizowanych scenariuszy
 ------
 ### Repozytoria
  __Aplikacja__ (https://github.com/JakubPilkowski/SportNewsManagerMobileApp)

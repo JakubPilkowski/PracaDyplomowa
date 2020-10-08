@@ -59,7 +59,7 @@ PU zarządzaj użytkownikami:
 ### Struktura bazy danych
 
 
-![DPU](/Baza_danych/BazaDanych.png)
+![DPU](/BazaDanych/BazaDanych.png)
 
 
 ### Scenariusze

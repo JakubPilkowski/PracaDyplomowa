@@ -9,8 +9,6 @@ Stan na 08.10.2020 - Brak zaktualizowanych scenariuszy
  
  __Backend__ (https://github.com/JakubPilkowski/FootballNewsManagerBackend)
  
- __Aplikacja Panel Admina__ (https://github.com/JakubPilkowski/FootballNewsManagerAdminMobileApp) - Aplikacja dla adminów do zarządzania użytkownikami oraz newsami
- 
 ### Tematyka pracy
 Aplikacja ma za zadanie na podstawie kryteriów użytkownika wyświetlać newsy z konkretnych zespołów. Aplikacja dzieli się na 2 podaplikacje(o ile takie słowo istnieje), główna oraz panel administratora.
 Składa się z czterech głównych zakładek: `Drużyny`, `Aktualności`, `Popularne` oraz `Profil`.

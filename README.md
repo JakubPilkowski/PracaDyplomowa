@@ -10,62 +10,16 @@ Stan na 08.10.2020 - Brak zaktualizowanych scenariuszy
  __Backend__ (https://github.com/JakubPilkowski/FootballNewsManagerBackend)
  
 ### Tematyka pracy
-Aplikacja ma za zadanie na podstawie kryteriów użytkownika wyświetlać newsy z konkretnych zespołów. Aplikacja dzieli się na 2 podaplikacje(o ile takie słowo istnieje), główna oraz panel administratora.
-Składa się z czterech głównych zakładek: `Drużyny`, `Aktualności`, `Popularne` oraz `Profil`.
-Główny ekran (Drużyny) aplikacji będzie wyświetlał wszystkie wybrane przez użytkownika newsy z przed kilku dni oraz zapewniał prostą wyszukiwarkę po nazwie drużyny. 
-Każdy news składa się z:
-* Logo strony internetowej z której pochodzi
-* Nazwę strony internetowej
-* Date dodania
-* Głównego zdjęcia
-* Tytułu newsa
-* Tagi przypisanie do danej wiadomości
-
-Druga zakładka (Aktualności) będzie wyświetlał najnowsze wiadomośći wraz z wiadomościami polecanymi. Z poziomu tej zakładki można wyszukiwać wiadomości po frazie oraz dodać daną drużynę do ulubionych.
-
-Kolejna zakładka (Popularne) będzie pokazywała strony internetowe, które są ostatnio popularne. Aplikacja będzie liczyła ilość kliknięć na daną stronę piłkarską i na jej podstawie będzie sortowała strony wyświetlające się. 
-
-Ostatnia zakładka (Profile) będzie ukazywał dane użytkownika. Z poziomu tej zakładki użytkownik może edytować ustawienia, ulubione strony, zmienić dane logowania itp.
-
-Oprócz tego aplikacja będzie zawierała system logowania wliczając w to logowanie za pomocą googla oraz facebooka.
-
-### Diagramy przypadków użycia
-
-DPU główny:
-![DPU](/Diagramy/DPU.png)
-
-PU autoryzuj:
-![PU Autoryzuj](/Diagramy/PU_Autoryzuj.png)
-
-PU zarządzaj wiadomościami piłkarskimi:
-![PU Zarzadzaj wiadomosciami](/Diagramy/PU_Zarzadzaj_wiadomosciami_pilkarskimi.png)
-
-PU zarządzaj popularnymi stronami:
-
-![PU Zarzadzaj popularnymi stronami](/Diagramy/PU_Zarzadzaj_popularnymi_stronami.png)
-
-PU zarządzaj profilem:
-
-![PU Zarzadzaj profilem](/Diagramy/PU_Zarzadzaj_profilem.png)
-
-
-PU zarządzaj użytkownikami:
-
-![PU Zarzadzaj użytkownikami](/Diagramy/PU_Zarzadzaj_uzytkownikami.png)
-
-### Struktura bazy danych
-
-
-![DPU](/BazaDanych/BazaDanych.png)
-
-
-### Scenariusze
-
-
-
-
-### Mockupy
-
-
+Celem aplikacji oraz jej główną zaletą jest duża przejrzystość oraz prostota połączona wraz z dużą bazą informacji. Aplikacja zawiera 4 główne zakładki
+`Wybrane`, `Wszystko`, `Strony` oraz `Profil`. W zakładce `Wybrane` znajdziemy wszystkie wiadomości dotyczące wybranych przez nas drużyn. 
+Każda z wiadomości zawiera tytuł wiadomości, zdjęcie oraz stronę z której pochodzi. Po kliknięciu w daną wiadomości aplikacja przenosi nas bezpośrednio do danej witryny piłkarskiej, 
+z której dana wiadomość pochodzi. Oprócz tego dana wiadomość umożliwia zapisanie wiadomości w ulubionych, odznaczenia jej jako przeczytanej oraz sprawdzenie dodatkowych informacji. 
+Zakłada `Wszystko` zawiera listę wszystkich dostępnych wiadomości wraz z wyszukiwarką dzięki której możemy wyszukać konkretną wiadomość lub wiadomości dla danej drużyny. 
+Zakładka `Strony` zawiera wszystkie witryny piłkarskie dla których zostały utworzone parsery. 
+Zakładka `Profil` zawiera podstawowe ustawienia konta m.in. zarządzanie drużynami oraz przeglądanie polubionych. 
+Aplikacja dodatkowo zawiera ekran wiadomości dla poszczególnej drużyny (nie mylić z zakładką `wybrane`) oraz ekran dodatkowych informacji, gdzie możemy się dowiedzieć np. kiedy 
+dana wiadomości została opublikowana lub jakie drużyny zawarte są w danej wiadomości. 
 
 ### Instalacja Aplikacji
+
+
